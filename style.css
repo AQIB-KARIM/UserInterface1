@@ -1,0 +1,348 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color:   #03274e;
+    line-height:40px;
+}
+.nav-link{
+    color: rgb(5, 133, 5);
+    font-weight: bold;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-right: 40px;
+    z-index: 0;
+}
+.logo{
+    margin-left: 35px;
+}
+#item1{
+    background-color: rgb(5, 133, 5);
+    line-height:40px;
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+}
+.carousel-item img{
+    width: 100vw;
+    height: 78vh; 
+}
+.head1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.para1{
+    color: rgb(17, 231, 17);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.para2{
+    color: rgb(20, 204, 20);
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.d-block{
+    border: 1px solid rgb(5, 155, 5);
+    border-style: ridge;
+}
+#content{
+    background-color: #03274e;
+    height: 550px;
+}
+.aligncenter{
+    text-align: center;
+    color: rgb(5, 133, 5);
+    margin-top: 60px;
+}
+div >.para{
+    color: rgb(180, 174, 174);
+
+}
+.col-md-4{
+    display:inline-block;
+    margin-top: 70px;
+    height: 100px;
+    
+}
+.fa-book{
+    font-size: 50px !important;
+    background-color: rgb(52, 61, 70);
+    width: 120px;
+    height: 100px;
+    justify-content: center !important;
+    margin-top: 5px;
+    color:  rgb(5, 133, 5);
+    border-radius: 5px;
+    padding: 20px;
+}
+.fa-users{
+    font-size: 50px !important;
+    background-color: rgb(52, 61, 70);
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    margin-top: 5px;
+    color:  rgb(5, 133, 5);
+    border-radius: 5px;
+    padding: 20px;
+}
+.fa-trophy{
+    font-size: 50px !important;
+    background-color: rgb(52, 61, 70);
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    margin-top: 5px;
+    color:  rgb(5, 133, 5);
+    border-radius: 5px;
+    padding: 20px;
+}
+.box-area{
+    width: 350px;
+}
+.box-area > h3{
+    color:  rgb(5, 133, 5);
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.box-area > p {
+    color: rgb(180, 174, 174) ;
+    font-size: 15px;
+}
+.trop{
+    position: relative;
+    left: 220%;
+    bottom: 290px;
+    
+}
+.section-padding{
+    background-color: rgb(53, 156, 58);
+    height: 630px;
+    
+}
+.section-title > h2{
+    margin-top: 80px;
+}
+.section-title > p{
+    color: white;
+    margin: 20px;
+    font-size: 13px;
+}
+.about-text > p{
+    color: white;
+    font-size: 13px;
+    padding: 2px;
+}
+.withArrow > li{
+    color: white;
+    list-style: none;
+    padding: 2px;
+    font-size: 13px;
+}
+.fa-angle-right{
+    border: 1px solid white;
+    border-radius: 27px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 12px !important;
+}
+.btn-primary{
+    margin-left: 45px;
+}
+.home-about{
+    background-color: #03274e;
+    width: 100%;
+    height: 450px;
+}
+.block-heading-two{
+  color:  rgb(53, 156, 58);
+}
+.col-md-4 > p{
+    color: rgb(255, 255, 255) ;
+}
+.panel-heading > h4 >a{
+    color:rgb(180, 174, 174) ;
+    font-size: 14px ;
+    font-weight: bold;
+    background-color: black;
+    padding: 10px;
+}
+.timetable > h3{
+    color:rgb(53, 156, 58);
+}
+.timetable > hr{
+   background-color: white;
+}
+.timetable > dl , dd , dt{
+    color:rgb(180, 174, 174) ;
+}
+.widgetheading{
+    color: rgb(53, 156, 58);
+}
+.col-lg-3{
+    margin-top: 40px;
+    height: 300px;
+    width: 100%;
+    left: 2%;
+}
+.container1{
+    background-color: rgb(20, 16, 39);
+
+}
+.widget > address,.str,p,.link-list{
+    color: rgb(180, 174, 174) ;
+}
+.link-list > li a{
+    color: rgb(180, 174, 174) ;
+    list-style: none;
+    margin-right: 10px;
+}
+#sub-footer{
+    background-color: rgb(24, 23, 23);
+}
+.social-network{
+    display: flex;
+    margin-left: 200px;
+}
+.social-network > li ,.fa-facebook,.fa-twitter,.fa-linkedin,.fa-google-plus,.fa-pinterest{
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(53, 156, 58) !important;
+    list-style: none;
+
+}
+.social-network > li a  .fa-facebook:hover{
+    color: white !important;
+}
+.social-network > li a  .fa-twitter:hover{
+    color: white !important;
+}
+.social-network > li a  .fa-linkedin:hover{
+    color: white !important;
+}
+.social-network > li a  .fa-google-plus:hover{
+    color: white !important;
+}
+.social-network > li a  .fa-pinterest:hover{
+    color: white !important;
+}
+.copyright > p{
+    margin-top: 20px;
+}
+.copyright > p a{
+    color: green;
+}
+
+#inner-headline{
+   
+    background-color: rgb(53, 156, 58) ;
+}
+.pageTitle{
+    margin: 10px;
+    line-height: 70px;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+.section-padding h3 p{
+    background-color: rgb(53, 156, 58) !important;
+    height: 100%px;
+    width: 100%;
+}
+#imgb{
+    margin-top: 50px;
+}
+.about-text > h3{
+    margin-top: 60px;
+    color:rgb(53, 156, 58) ;
+}
+.about-text > p{
+    color: rgb(180, 174, 174);
+    font-size: 15.5px;
+}
+.container32{
+    background-color:   #03274e;
+    width: 100%;
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+#inner-headline{
+    background-color:  rgb(53, 156, 58) ;
+    width: 100%;
+
+}
+
+#abc{
+    background-color:   #03274e;
+    height: 400px;
+    width: 100%;
+}
+
+#exper{
+    position: relative;
+    padding: 65px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+#space{
+    position: relative;
+    left: 50px;
+}
+#space2{
+    position: relative;
+    left: 85px;
+}
+
+.col-md-4 > h6{
+    color:rgb(53, 156, 58) ;
+}
+
+
+.img-responsive{
+    width: 200px;
+    height: 180px;
+}
+#team1,#team2,#team3,#team4{
+    position: relative;
+    margin-top: 30px;
+    background-color: #03274e;
+    width: 100%;
+    padding: 0;
+}
+
+.bg-color{
+    margin-top: 200px;
+    margin-left: 40px;
+    color:rgb(53, 156, 58) ;
+}
+.team-member{
+    margin-left: 60px;
+}
+.team-member h4{
+  color:rgb(53, 156, 58) ;
+  margin-left: 50px;
+  
+}
+.deg{
+    color: rgb(180, 174, 174) ;
+    margin-left: 50px;
+}
+.fot{
+    margin-top: 45%;
+}
